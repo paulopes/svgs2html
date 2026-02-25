@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a2744"/><stop offset="100%" stop-color="#2c4a7c"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fce8e6"/><stop offset="100%" stop-color="#f8d7d4"/></linearGradient>
+    <filter id="s"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.12"/></filter>
+    <filter id="sl"><feDropShadow dx="0.5" dy="1" stdDeviation="1.5" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="1200" height="850" fill="#f5f7fa" rx="12"/>
+  <rect x="40" y="30" width="1120" height="80" rx="10" fill="url(#hg)" filter="url(#s)"/>
+  <text x="600" y="65" text-anchor="middle" fill="white" font-size="22" font-weight="700">Other Income Accounts</text>
+  <text x="600" y="90" text-anchor="middle" fill="#a8c4e8" font-size="13">47 CFR Part 32 · Subpart F · Accounts 7100–7990 · Operating &amp; Nonoperating Income, Taxes, Extraordinary Items</text>
+
+  <!-- OTHER OPERATING INCOME -->
+  <rect x="40" y="135" width="545" height="160" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="135" width="545" height="40" rx="10" fill="#ea4335"/>
+  <rect x="40" y="163" width="545" height="12" fill="#ea4335"/>
+  <text x="60" y="163" fill="white" font-size="16" font-weight="700">OTHER OPERATING INCOME &amp; EXPENSE</text>
+
+  <rect x="55" y="190" width="515" height="90" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="190" width="70" height="26" rx="5" fill="#e53935"/>
+  <text x="65" y="208" fill="white" font-size="11" font-weight="700">7100</text>
+  <text x="135" y="208" fill="#b71c1c" font-size="14" font-weight="700">Other Operating Income &amp; Expenses</text>
+  <text x="70" y="232" fill="#333" font-size="11">Transactions incidental or peripheral to central telecom operations</text>
+  <text x="70" y="250" fill="#333" font-size="11">Includes: incidental work performed for others not provided for elsewhere</text>
+  <text x="70" y="268" fill="#333" font-size="11">Inflows/outflows matched per transaction; shown as net gain or loss</text>
+
+  <!-- OPERATING TAXES -->
+  <rect x="615" y="135" width="545" height="370" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="615" y="135" width="545" height="40" rx="10" fill="#c62828"/>
+  <rect x="615" y="163" width="545" height="12" fill="#c62828"/>
+  <text x="635" y="163" fill="white" font-size="16" font-weight="700">OPERATING TAXES</text>
+
+  <rect x="630" y="190" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="190" width="70" height="26" rx="5" fill="#d32f2f"/>
+  <text x="640" y="208" fill="white" font-size="11" font-weight="700">7210</text>
+  <text x="710" y="208" fill="#b71c1c" font-size="13" font-weight="700">Operating Investment Tax Credits—Net</text>
+  <text x="645" y="232" fill="#333" font-size="10">Net amount of investment tax credits from regulated operating activities</text>
+
+  <rect x="630" y="253" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="253" width="70" height="26" rx="5" fill="#d32f2f"/>
+  <text x="640" y="271" fill="white" font-size="11" font-weight="700">7220</text>
+  <text x="710" y="271" fill="#b71c1c" font-size="13" font-weight="700">Operating Federal Income Taxes</text>
+  <text x="645" y="295" fill="#333" font-size="10">Federal income taxes attributable to regulated operations; contra to Acct 4070</text>
+
+  <rect x="630" y="316" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="316" width="70" height="26" rx="5" fill="#d32f2f"/>
+  <text x="640" y="334" fill="white" font-size="11" font-weight="700">7230</text>
+  <text x="710" y="334" fill="#b71c1c" font-size="13" font-weight="700">Operating State &amp; Local Income Taxes</text>
+  <text x="645" y="358" fill="#333" font-size="10">State and local income taxes attributable to regulated operations</text>
+
+  <rect x="630" y="379" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="379" width="70" height="26" rx="5" fill="#d32f2f"/>
+  <text x="640" y="397" fill="white" font-size="11" font-weight="700">7240</text>
+  <text x="710" y="397" fill="#b71c1c" font-size="13" font-weight="700">Operating Other Taxes</text>
+  <text x="645" y="421" fill="#333" font-size="10">All operating taxes other than income taxes (property, franchise, gross receipts, etc.)</text>
+
+  <rect x="630" y="442" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="442" width="70" height="26" rx="5" fill="#d32f2f"/>
+  <text x="640" y="460" fill="white" font-size="11" font-weight="700">7250</text>
+  <text x="710" y="460" fill="#b71c1c" font-size="13" font-weight="700">Provision for Deferred Oper. Inc. Taxes—Net</text>
+  <text x="645" y="484" fill="#333" font-size="10">Net deferred operating income tax provision per §32.22 (comprehensive interperiod allocation)</text>
+
+  <!-- NONOPERATING, INTEREST, EXTRAORDINARY -->
+  <rect x="40" y="310" width="545" height="350" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="310" width="545" height="40" rx="10" fill="#b71c1c"/>
+  <rect x="40" y="338" width="545" height="12" fill="#b71c1c"/>
+  <text x="60" y="340" fill="white" font-size="16" font-weight="700">NONOPERATING · INTEREST · EXTRAORDINARY</text>
+
+  <rect x="55" y="365" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="365" width="70" height="26" rx="5" fill="#c62828"/>
+  <text x="65" y="383" fill="white" font-size="11" font-weight="700">7300</text>
+  <text x="135" y="383" fill="#b71c1c" font-size="13" font-weight="700">Nonoperating Income &amp; Expense</text>
+  <text x="70" y="405" fill="#333" font-size="10">Gains/losses on investments, equity method earnings, goodwill amortization (from 2007)</text>
+  <text x="70" y="415" fill="#666" font-size="9" font-style="italic">Unrealized losses on current marketable equity securities (from 1120)</text>
+
+  <rect x="55" y="428" width="515" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="428" width="70" height="26" rx="5" fill="#c62828"/>
+  <text x="65" y="446" fill="white" font-size="11" font-weight="700">7400</text>
+  <text x="135" y="446" fill="#b71c1c" font-size="13" font-weight="700">Nonoperating Taxes</text>
+  <text x="70" y="468" fill="#333" font-size="10">All taxes (income and other) on nonoperating activities</text>
+  <text x="70" y="482" fill="#333" font-size="10">Includes deferred nonoperating income taxes per §32.22</text>
+  <text x="70" y="492" fill="#666" font-size="9" font-style="italic">Subsidiaries: property-related vs. nonproperty-related; Fed vs. state vs. local</text>
+
+  <rect x="55" y="501" width="515" height="80" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="501" width="70" height="26" rx="5" fill="#c62828"/>
+  <text x="65" y="519" fill="white" font-size="11" font-weight="700">7500</text>
+  <text x="135" y="519" fill="#b71c1c" font-size="13" font-weight="700">Interest &amp; Related Items</text>
+  <text x="70" y="541" fill="#333" font-size="10">Interest on funded debt (4200); finance &amp; operating lease interest portions</text>
+  <text x="70" y="555" fill="#333" font-size="10">Monthly amortization of debt premium/discount and issuance costs (from 1410)</text>
+  <text x="70" y="569" fill="#333" font-size="10">Interest on notes ≤1 yr, advances, deposits, claims, judgments, past-due taxes</text>
+  <text x="70" y="579" fill="#666" font-size="9" font-style="italic">Excludes interest on company's own securities held in treasury or funds</text>
+
+  <rect x="55" y="589" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="589" width="70" height="26" rx="5" fill="#880e4f"/>
+  <text x="65" y="607" fill="white" font-size="11" font-weight="700">7600</text>
+  <text x="135" y="607" fill="#880e4f" font-size="13" font-weight="700">Extraordinary Items</text>
+  <text x="70" y="629" fill="#333" font-size="10">Unusual and infrequent events; recorded net of applicable income tax effects</text>
+  <text x="70" y="639" fill="#666" font-size="9" font-style="italic">Related deferred taxes flow through 4070/4100/4110/4340/4350</text>
+
+  <!-- JURISDICTIONAL DIFFERENCES & NONREGULATED -->
+  <rect x="40" y="680" width="1120" height="130" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="680" width="1120" height="40" rx="10" fill="#4a148c"/>
+  <rect x="40" y="708" width="1120" height="12" fill="#4a148c"/>
+  <text x="60" y="710" fill="white" font-size="16" font-weight="700">JURISDICTIONAL DIFFERENCES &amp; NONREGULATED INCOME</text>
+
+  <rect x="55" y="735" width="530" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="735" width="70" height="26" rx="5" fill="#7b1fa2"/>
+  <text x="65" y="753" fill="white" font-size="11" font-weight="700">7910</text>
+  <text x="135" y="753" fill="#4a148c" font-size="13" font-weight="700">Income Effect of Jurisdictional Ratemaking Diff.—Net</text>
+  <text x="70" y="775" fill="#333" font-size="10">Net impact on income of state/other jurisdictional ratemaking practices that differ from FCC</text>
+  <text x="70" y="789" fill="#666" font-size="9" font-style="italic">Reported net of applicable income taxes; supported by subsidiary records</text>
+
+  <rect x="615" y="735" width="530" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="615" y="735" width="70" height="26" rx="5" fill="#7b1fa2"/>
+  <text x="625" y="753" fill="white" font-size="11" font-weight="700">7990</text>
+  <text x="695" y="753" fill="#4a148c" font-size="13" font-weight="700">Nonregulated Net Income</text>
+  <text x="630" y="775" fill="#333" font-size="10">Net income from nonregulated activities involving joint/common use of regulated assets</text>
+  <text x="630" y="789" fill="#666" font-size="9" font-style="italic">Recorded per §32.23; two subsidiary categories mirror 5280 structure</text>
+
+  <text x="600" y="837" text-anchor="middle" fill="#999" font-size="10">47 CFR Part 32 — Uniform System of Accounts for Telecommunications Companies</text>
+</svg>

@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1050" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a2744"/><stop offset="100%" stop-color="#2c4a7c"/></linearGradient>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff3e0"/><stop offset="100%" stop-color="#ffe0b2"/></linearGradient>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8f5e9"/><stop offset="100%" stop-color="#c8e6c9"/></linearGradient>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e3f2fd"/><stop offset="100%" stop-color="#bbdefb"/></linearGradient>
+    <filter id="s"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.12"/></filter>
+    <filter id="sl"><feDropShadow dx="0.5" dy="1" stdDeviation="1.5" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="1200" height="1050" fill="#f5f7fa" rx="12"/>
+  <rect x="40" y="30" width="1120" height="80" rx="10" fill="url(#hg)" filter="url(#s)"/>
+  <text x="600" y="65" text-anchor="middle" fill="white" font-size="22" font-weight="700">Balance Sheet — Liabilities &amp; Stockholders' Equity</text>
+  <text x="600" y="90" text-anchor="middle" fill="#a8c4e8" font-size="13">47 CFR Part 32 · Subpart C · Accounts 4000–4550</text>
+
+  <!-- CURRENT LIABILITIES -->
+  <rect x="40" y="135" width="545" height="580" rx="10" fill="url(#bg1)" filter="url(#s)"/>
+  <rect x="40" y="135" width="545" height="40" rx="10" fill="#e8710a"/>
+  <rect x="40" y="163" width="545" height="12" fill="#e8710a"/>
+  <text x="60" y="163" fill="white" font-size="17" font-weight="700">CURRENT LIABILITIES</text>
+
+  <rect x="55" y="190" width="515" height="95" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="190" width="70" height="26" rx="5" fill="#e8710a"/>
+  <text x="65" y="208" fill="white" font-size="11" font-weight="700">4000</text>
+  <text x="135" y="208" fill="#6d3a00" font-size="13" font-weight="700">Current Accounts &amp; Notes Payable</text>
+  <text x="70" y="232" fill="#333" font-size="10">• Recurring trade obligations: traffic settlements, M&amp;S, repairs, rents</text>
+  <text x="70" y="246" fill="#333" font-size="10">• Revenue-sharing payables; payroll withholdings</text>
+  <text x="70" y="260" fill="#333" font-size="10">• Notes, drafts payable ≤1 yr from issue</text>
+  <text x="70" y="276" fill="#666" font-size="9" font-style="italic">Subsidiaries: affiliate vs. nonaffiliate · If maturity &gt;1 yr → Acct 4200</text>
+
+  <rect x="55" y="292" width="250" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="292" width="70" height="26" rx="5" fill="#d68400"/>
+  <text x="65" y="310" fill="white" font-size="11" font-weight="700">4040</text>
+  <text x="135" y="310" fill="#6d3a00" font-size="12" font-weight="600">Customers' Deposits</text>
+  <text x="70" y="332" fill="#333" font-size="10">Cash deposited as security for</text>
+  <text x="70" y="344" fill="#333" font-size="10">payment of telecom services</text>
+
+  <rect x="320" y="292" width="250" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="320" y="292" width="70" height="26" rx="5" fill="#d68400"/>
+  <text x="330" y="310" fill="white" font-size="11" font-weight="700">4070</text>
+  <text x="400" y="310" fill="#6d3a00" font-size="12" font-weight="600">Income Taxes—Accrued</text>
+  <text x="335" y="332" fill="#333" font-size="10">Current yr Fed/state/local income</text>
+  <text x="335" y="344" fill="#333" font-size="10">taxes; contra to 7220/7230/7400</text>
+
+  <rect x="55" y="360" width="250" height="70" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="360" width="70" height="26" rx="5" fill="#d68400"/>
+  <text x="65" y="378" fill="white" font-size="11" font-weight="700">4080</text>
+  <text x="135" y="378" fill="#6d3a00" font-size="12" font-weight="600">Other Taxes—Accrued</text>
+  <text x="70" y="400" fill="#333" font-size="10">Property, gross receipts, franchise,</text>
+  <text x="70" y="414" fill="#333" font-size="10">capital stock, payroll, unemployment</text>
+  <text x="70" y="424" fill="#666" font-size="9" font-style="italic">Prepaid → 1280 or 1410</text>
+
+  <rect x="320" y="360" width="250" height="70" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="320" y="360" width="70" height="26" rx="5" fill="#d68400"/>
+  <text x="330" y="378" fill="white" font-size="11" font-weight="700">4100</text>
+  <text x="400" y="378" fill="#6d3a00" font-size="12" font-weight="600">Def. Oper. Inc. Taxes</text>
+  <text x="335" y="400" fill="#333" font-size="10">Net current deferred operating</text>
+  <text x="335" y="414" fill="#333" font-size="10">income taxes (normalized method)</text>
+  <text x="335" y="424" fill="#666" font-size="9" font-style="italic">Contra: 7250</text>
+
+  <rect x="55" y="438" width="250" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="438" width="70" height="26" rx="5" fill="#d68400"/>
+  <text x="65" y="456" fill="white" font-size="11" font-weight="700">4110</text>
+  <text x="135" y="456" fill="#6d3a00" font-size="12" font-weight="600">Def. Nonoper. Inc. Taxes</text>
+  <text x="70" y="478" fill="#333" font-size="10">Net current deferred nonoperating</text>
+  <text x="70" y="490" fill="#333" font-size="10">income taxes incl. extraordinary items</text>
+
+  <rect x="320" y="438" width="250" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="320" y="438" width="70" height="26" rx="5" fill="#d68400"/>
+  <text x="330" y="456" fill="white" font-size="11" font-weight="700">4130</text>
+  <text x="400" y="456" fill="#6d3a00" font-size="12" font-weight="600">Other Current Liabilities</text>
+  <text x="335" y="478" fill="#333" font-size="10">Advance billing, matured LTD unpaid,</text>
+  <text x="335" y="490" fill="#333" font-size="10">finance lease current, accrued items</text>
+
+  <text x="55" y="525" fill="#8b4513" font-size="10" font-weight="600">Classification rule: Deferred income taxes follow the classification (current/noncurrent)</text>
+  <text x="55" y="540" fill="#8b4513" font-size="10" font-weight="600">of the asset or liability that gave rise to them. If no related asset/liability, follow</text>
+  <text x="55" y="555" fill="#8b4513" font-size="10" font-weight="600">expected turnaround of temporary differences.</text>
+  <text x="55" y="578" fill="#555" font-size="10" font-style="italic">Subsidiary records: property-related vs. nonproperty-related; Fed vs. state vs. local</text>
+
+  <!-- LONG-TERM DEBT -->
+  <rect x="55" y="598" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="598" width="70" height="26" rx="5" fill="#bf360c"/>
+  <text x="65" y="616" fill="white" font-size="11" font-weight="700">4200</text>
+  <text x="135" y="616" fill="#6d3a00" font-size="13" font-weight="700">Long-Term Debt &amp; Funded Debt</text>
+  <text x="70" y="640" fill="#333" font-size="10">Face value of bonds, debentures, notes &gt;1 yr; unamortized premium/discount; finance lease obligations (noncurrent)</text>
+
+  <rect x="55" y="660" width="515" height="45" rx="7" fill="#fff8e1"/>
+  <text x="70" y="680" fill="#555" font-size="10">Includes: mortgages, equipment trust certificates, receivers' certificates. A subsidiary record is kept per issue outstanding.</text>
+  <text x="70" y="695" fill="#555" font-size="10">Premium/discount amortized monthly to Acct 7500 (Interest &amp; Related Items).</text>
+
+  <!-- OTHER LIABILITIES & DEFERRED CREDITS -->
+  <rect x="615" y="135" width="545" height="580" rx="10" fill="url(#bg2)" filter="url(#s)"/>
+  <rect x="615" y="135" width="545" height="40" rx="10" fill="#2e7d32"/>
+  <rect x="615" y="163" width="545" height="12" fill="#2e7d32"/>
+  <text x="635" y="163" fill="white" font-size="17" font-weight="700">OTHER LIABILITIES &amp; DEFERRED CREDITS</text>
+
+  <rect x="630" y="190" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="190" width="70" height="26" rx="5" fill="#2e7d32"/>
+  <text x="640" y="208" fill="white" font-size="11" font-weight="700">4300</text>
+  <text x="710" y="208" fill="#1b5e20" font-size="13" font-weight="700">Other Long-Term Liabilities &amp; Deferred Credits</text>
+  <text x="645" y="232" fill="#333" font-size="10">Noncurrent obligations and deferred revenue items not classified elsewhere</text>
+
+  <rect x="630" y="254" width="250" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="254" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="640" y="272" fill="white" font-size="11" font-weight="700">4320</text>
+  <text x="710" y="272" fill="#1b5e20" font-size="12" font-weight="600">Unamort. Oper. ITC—Net</text>
+  <text x="645" y="294" fill="#333" font-size="10">Investment tax credits from</text>
+  <text x="645" y="306" fill="#333" font-size="10">regulated operating plant</text>
+
+  <rect x="895" y="254" width="250" height="60" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="895" y="254" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="905" y="272" fill="white" font-size="11" font-weight="700">4330</text>
+  <text x="975" y="272" fill="#1b5e20" font-size="12" font-weight="600">Unamort. Nonoper. ITC</text>
+  <text x="910" y="294" fill="#333" font-size="10">Investment tax credits from</text>
+  <text x="910" y="306" fill="#333" font-size="10">nonoperating activities</text>
+
+  <rect x="630" y="322" width="250" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="322" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="640" y="340" fill="white" font-size="11" font-weight="700">4340</text>
+  <text x="710" y="340" fill="#1b5e20" font-size="12" font-weight="600">NC Def. Oper. Inc. Tax</text>
+  <text x="645" y="362" fill="#333" font-size="10">Noncurrent deferred operating</text>
+  <text x="645" y="376" fill="#333" font-size="10">income taxes (normalized method)</text>
+
+  <rect x="895" y="322" width="250" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="895" y="322" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="905" y="340" fill="white" font-size="11" font-weight="700">4341</text>
+  <text x="975" y="340" fill="#1b5e20" font-size="12" font-weight="600">Def. Tax Liab. Adj.</text>
+  <text x="910" y="362" fill="#333" font-size="10">Probable future revenue for</text>
+  <text x="910" y="376" fill="#333" font-size="10">recovery of future tax changes</text>
+
+  <rect x="630" y="395" width="250" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="395" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="640" y="413" fill="white" font-size="11" font-weight="700">4350</text>
+  <text x="710" y="413" fill="#1b5e20" font-size="12" font-weight="600">NC Def. Nonoper. Inc. Tax</text>
+  <text x="645" y="435" fill="#333" font-size="10">Noncurrent deferred nonoper.</text>
+  <text x="645" y="449" fill="#333" font-size="10">income taxes (comprehensive)</text>
+
+  <rect x="895" y="395" width="250" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="895" y="395" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="905" y="413" fill="white" font-size="11" font-weight="700">4361</text>
+  <text x="975" y="413" fill="#1b5e20" font-size="12" font-weight="600">Def. Tax Reg. Adj.—Net</text>
+  <text x="910" y="435" fill="#333" font-size="10">Impact of prospective tax rate</text>
+  <text x="910" y="449" fill="#333" font-size="10">changes on deferred tax liability</text>
+
+  <rect x="630" y="470" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="470" width="70" height="26" rx="5" fill="#388e3c"/>
+  <text x="640" y="488" fill="white" font-size="11" font-weight="700">4370</text>
+  <text x="710" y="488" fill="#1b5e20" font-size="13" font-weight="700">Other Jurisdictional Liabilities &amp; Deferred Credits—Net</text>
+  <text x="645" y="512" fill="#333" font-size="10">Cumulative impact of state/other jurisdictional ratemaking practices differing from FCC; net of income tax effects</text>
+
+  <text x="635" y="555" fill="#1b5e20" font-size="10" font-weight="600">Tax accounts follow §32.22 Comprehensive Interperiod Tax Allocation</text>
+  <text x="635" y="570" fill="#555" font-size="10" font-style="italic">Each deferred tax account maintains property-related vs. nonproperty-related subsidiaries</text>
+  <text x="635" y="585" fill="#555" font-size="10" font-style="italic">Reclassification between current/noncurrent follows underlying asset or liability status</text>
+
+  <!-- STOCKHOLDERS' EQUITY -->
+  <rect x="615" y="730" width="545" height="280" rx="10" fill="url(#bg3)" filter="url(#s)"/>
+  <rect x="615" y="730" width="545" height="40" rx="10" fill="#0d47a1"/>
+  <rect x="615" y="758" width="545" height="12" fill="#0d47a1"/>
+  <text x="635" y="760" fill="white" font-size="17" font-weight="700">STOCKHOLDERS' EQUITY</text>
+
+  <rect x="630" y="785" width="250" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="785" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="640" y="803" fill="white" font-size="11" font-weight="700">4510</text>
+  <text x="710" y="803" fill="#0d47a1" font-size="13" font-weight="700">Capital Stock</text>
+  <text x="645" y="825" fill="#333" font-size="10">Par/stated value of all classes</text>
+  <text x="645" y="838" fill="#333" font-size="10">of stock issued &amp; outstanding</text>
+
+  <rect x="895" y="785" width="250" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="895" y="785" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="905" y="803" fill="white" font-size="11" font-weight="700">4520</text>
+  <text x="975" y="803" fill="#0d47a1" font-size="13" font-weight="700">Additional Paid-In Capital</text>
+  <text x="910" y="825" fill="#333" font-size="10">Excess of issue price over</text>
+  <text x="910" y="838" fill="#333" font-size="10">par or stated value</text>
+
+  <rect x="630" y="850" width="250" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="850" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="640" y="868" fill="white" font-size="11" font-weight="700">4530</text>
+  <text x="710" y="868" fill="#0d47a1" font-size="13" font-weight="700">Treasury Stock</text>
+  <text x="645" y="890" fill="#333" font-size="10">Cost of company's own stock</text>
+  <text x="645" y="903" fill="#333" font-size="10">reacquired (contra equity)</text>
+
+  <rect x="895" y="850" width="250" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="895" y="850" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="905" y="868" fill="white" font-size="11" font-weight="700">4540</text>
+  <text x="975" y="868" fill="#0d47a1" font-size="13" font-weight="700">Other Capital</text>
+  <text x="910" y="890" fill="#333" font-size="10">Other equity adjustments;</text>
+  <text x="910" y="903" fill="#333" font-size="10">temp. unrealized losses</text>
+
+  <rect x="630" y="915" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="915" width="70" height="26" rx="5" fill="#0d47a1"/>
+  <text x="640" y="933" fill="white" font-size="11" font-weight="700">4550</text>
+  <text x="710" y="933" fill="#0d47a1" font-size="14" font-weight="700">Retained Earnings</text>
+  <text x="645" y="955" fill="#333" font-size="11">Accumulated net income less dividends declared; includes prior-period adjustments &amp; equity-method earnings</text>
+
+  <text x="600" y="1035" text-anchor="middle" fill="#999" font-size="10">47 CFR Part 32 — Uniform System of Accounts for Telecommunications Companies</text>
+</svg>

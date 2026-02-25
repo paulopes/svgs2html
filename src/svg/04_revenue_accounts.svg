@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 950" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a2744"/><stop offset="100%" stop-color="#2c4a7c"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e6f4ea"/><stop offset="100%" stop-color="#ceead6"/></linearGradient>
+    <filter id="s"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.12"/></filter>
+    <filter id="sl"><feDropShadow dx="0.5" dy="1" stdDeviation="1.5" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="1200" height="950" fill="#f5f7fa" rx="12"/>
+  <rect x="40" y="30" width="1120" height="80" rx="10" fill="url(#hg)" filter="url(#s)"/>
+  <text x="600" y="65" text-anchor="middle" fill="white" font-size="22" font-weight="700">Revenue Accounts</text>
+  <text x="600" y="90" text-anchor="middle" fill="#a8c4e8" font-size="13">47 CFR Part 32 · Subpart D · Accounts 5000–5300 · Six Major Revenue Groups</text>
+
+  <!-- LOCAL NETWORK SERVICES -->
+  <rect x="40" y="135" width="560" height="420" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="135" width="560" height="40" rx="10" fill="#188038"/>
+  <rect x="40" y="163" width="560" height="12" fill="#188038"/>
+  <text x="60" y="163" fill="white" font-size="16" font-weight="700">① LOCAL NETWORK SERVICES REVENUES</text>
+
+  <rect x="55" y="192" width="530" height="75" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="192" width="70" height="26" rx="5" fill="#34a853"/>
+  <text x="65" y="210" fill="white" font-size="11" font-weight="700">5001</text>
+  <text x="135" y="210" fill="#1b5e20" font-size="13" font-weight="700">Basic Area Revenue</text>
+  <text x="70" y="232" fill="#333" font-size="10">Flat-rate, measured local service; non-optional EAS; semi-public services</text>
+  <text x="70" y="246" fill="#333" font-size="10">Cellular mobile &amp; general radio connected to PSTN within mobile service area</text>
+  <text x="70" y="260" fill="#666" font-size="9" font-style="italic">Excludes: nonpublished number charges (→5230), private mobile w/o PSTN access (→5200)</text>
+
+  <rect x="55" y="275" width="255" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="275" width="70" height="26" rx="5" fill="#34a853"/>
+  <text x="65" y="293" fill="white" font-size="11" font-weight="700">5002</text>
+  <text x="135" y="293" fill="#1b5e20" font-size="12" font-weight="600">Opt. Extended Area Rev.</text>
+  <text x="70" y="318" fill="#333" font-size="10">Optional extended area service</text>
+
+  <rect x="320" y="275" width="265" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="320" y="275" width="70" height="26" rx="5" fill="#34a853"/>
+  <text x="330" y="293" fill="white" font-size="11" font-weight="700">5003</text>
+  <text x="400" y="293" fill="#1b5e20" font-size="12" font-weight="600">Cellular Mobile Revenue</text>
+  <text x="335" y="318" fill="#333" font-size="10">Cellular mobile via PSTN in MSA</text>
+
+  <rect x="55" y="338" width="530" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="338" width="70" height="26" rx="5" fill="#34a853"/>
+  <text x="65" y="356" fill="white" font-size="11" font-weight="700">5040</text>
+  <text x="135" y="356" fill="#1b5e20" font-size="13" font-weight="700">Private Line Revenue</text>
+  <text x="70" y="378" fill="#333" font-size="10">Dedicated circuits, private switching, predefined paths (point-to-point)</text>
+  <text x="70" y="392" fill="#333" font-size="10">Subvoice, voice, audio/video program grade, digital, local private network switching</text>
+
+  <rect x="55" y="410" width="530" height="75" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="410" width="70" height="26" rx="5" fill="#34a853"/>
+  <text x="65" y="428" fill="white" font-size="11" font-weight="700">5060</text>
+  <text x="135" y="428" fill="#1b5e20" font-size="13" font-weight="700">Other Basic Area Revenue</text>
+  <text x="70" y="450" fill="#333" font-size="10">Secondary features (call forwarding, call waiting, touch-tone), directory assistance</text>
+  <text x="70" y="464" fill="#333" font-size="10">Service connection/termination charges; CPE leasing; revenue pooling settlements</text>
+  <text x="70" y="478" fill="#666" font-size="9" font-style="italic">Catch-all for local revenue not in other accounts</text>
+
+  <rect x="55" y="500" width="530" height="40" rx="7" fill="#e8f5e9"/>
+  <text x="70" y="524" fill="#2e7d32" font-size="10" font-weight="600">SCOPE: Revenue from service &amp; equipment entirely within the basic service area (local calling + EAS boundaries)</text>
+
+  <!-- NETWORK ACCESS SERVICES -->
+  <rect x="615" y="135" width="545" height="250" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="615" y="135" width="545" height="40" rx="10" fill="#0d47a1"/>
+  <rect x="615" y="163" width="545" height="12" fill="#0d47a1"/>
+  <text x="635" y="163" fill="white" font-size="16" font-weight="700">② NETWORK ACCESS SERVICES REVENUES</text>
+
+  <rect x="630" y="192" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="192" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="640" y="210" fill="white" font-size="11" font-weight="700">5081</text>
+  <text x="710" y="210" fill="#0d47a1" font-size="13" font-weight="700">End User Revenue</text>
+  <text x="645" y="232" fill="#333" font-size="10">Federally &amp; state tariffed monthly flat-rate charges assessed upon end users</text>
+  <text x="645" y="245" fill="#666" font-size="9" font-style="italic">Subsidiaries: limited pay telephone, carrier common line, line termination, local switching, etc.</text>
+
+  <rect x="630" y="255" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="255" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="640" y="273" fill="white" font-size="11" font-weight="700">5082</text>
+  <text x="710" y="273" fill="#0d47a1" font-size="13" font-weight="700">Switched Access Revenue</text>
+  <text x="645" y="295" fill="#333" font-size="10">Tariffed charges to IXCs for access to local exchange facilities</text>
+  <text x="645" y="308" fill="#666" font-size="9" font-style="italic">Subsidiaries: common transport, dedicated transport, intercept, information; Fed vs. state</text>
+
+  <rect x="630" y="318" width="515" height="55" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="318" width="70" height="26" rx="5" fill="#1565c0"/>
+  <text x="640" y="336" fill="white" font-size="11" font-weight="700">5083</text>
+  <text x="710" y="336" fill="#0d47a1" font-size="13" font-weight="700">Special Access Revenue</text>
+  <text x="645" y="358" fill="#333" font-size="10">All tariffed access charges not covered by 5081/5082 (recurring, nonrecurring, surcharges)</text>
+  <text x="645" y="371" fill="#666" font-size="9" font-style="italic">Subsidiaries: recurring vs. nonrecurring vs. surcharges; Federal vs. state</text>
+
+  <!-- LONG DISTANCE -->
+  <rect x="615" y="400" width="545" height="155" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="615" y="400" width="545" height="40" rx="10" fill="#4527a0"/>
+  <rect x="615" y="428" width="545" height="12" fill="#4527a0"/>
+  <text x="635" y="430" fill="white" font-size="16" font-weight="700">③ LONG DISTANCE NETWORK SERVICES</text>
+
+  <rect x="630" y="455" width="515" height="85" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="455" width="70" height="26" rx="5" fill="#6a1b9a"/>
+  <text x="640" y="473" fill="white" font-size="11" font-weight="700">5100</text>
+  <text x="710" y="473" fill="#4a148c" font-size="13" font-weight="700">Long Distance Message Revenue</text>
+  <text x="645" y="495" fill="#333" font-size="10">Individually priced messages terminating beyond basic service area</text>
+  <text x="645" y="509" fill="#333" font-size="10">Includes calling plans, operator-assisted LD, mobile/public phone LD calls</text>
+  <text x="645" y="523" fill="#333" font-size="10">Inbound multipoint-to-point (e.g., toll-free) via dedicated access lines</text>
+  <text x="645" y="536" fill="#666" font-size="9" font-style="italic">Monthly/one-time calling plan enrollment fees included here</text>
+
+  <!-- MISCELLANEOUS -->
+  <rect x="40" y="570" width="560" height="220" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="570" width="560" height="40" rx="10" fill="#e65100"/>
+  <rect x="40" y="598" width="560" height="12" fill="#e65100"/>
+  <text x="60" y="600" fill="white" font-size="16" font-weight="700">④ MISCELLANEOUS REVENUES</text>
+
+  <rect x="55" y="625" width="530" height="100" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="625" width="70" height="26" rx="5" fill="#f4511e"/>
+  <text x="65" y="643" fill="white" font-size="11" font-weight="700">5200</text>
+  <text x="135" y="643" fill="#bf360c" font-size="13" font-weight="700">Miscellaneous Revenue</text>
+  <text x="70" y="665" fill="#333" font-size="10">Billing &amp; collection services to other carriers; transport &amp; termination per §251(c)</text>
+  <text x="70" y="679" fill="#333" font-size="10">Unbundled network elements per §251(c); revenue pooling settlements</text>
+  <text x="70" y="693" fill="#333" font-size="10">Late payment charges, collection overages, unclaimed refunds, private mobile (non-PSTN)</text>
+  <text x="70" y="715" fill="#666" font-size="9" font-style="italic">Regulated products/services under tariff or contract not elsewhere classified</text>
+
+  <rect x="55" y="733" width="530" height="45" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="55" y="733" width="70" height="26" rx="5" fill="#f4511e"/>
+  <text x="65" y="751" fill="white" font-size="11" font-weight="700">5230</text>
+  <text x="135" y="751" fill="#bf360c" font-size="13" font-weight="700">Directory Revenue</text>
+  <text x="70" y="770" fill="#333" font-size="10">Alphabetical &amp; classified directory sections; directory sales; boldface listings; unlisted number charges</text>
+
+  <!-- NONREGULATED & UNCOLLECTIBLE -->
+  <rect x="615" y="570" width="545" height="220" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="615" y="570" width="545" height="40" rx="10" fill="#37474f"/>
+  <rect x="615" y="598" width="545" height="12" fill="#37474f"/>
+  <text x="635" y="600" fill="white" font-size="16" font-weight="700">⑤ NONREGULATED  ·  ⑥ UNCOLLECTIBLE</text>
+
+  <rect x="630" y="625" width="515" height="80" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="625" width="70" height="26" rx="5" fill="#546e7a"/>
+  <text x="640" y="643" fill="white" font-size="11" font-weight="700">5280</text>
+  <text x="710" y="643" fill="#263238" font-size="13" font-weight="700">Nonregulated Operating Revenue</text>
+  <text x="645" y="665" fill="#333" font-size="10">Revenue from nonregulated activities using joint/common regulated assets (per §32.23)</text>
+  <text x="645" y="679" fill="#333" font-size="10">Debited when tariffed services provided to nonreg activities at tariff rates</text>
+  <text x="645" y="697" fill="#666" font-size="9" font-style="italic">Two subsidiaries: (1) regulated services treated as nonreg by Commission order; (2) all other</text>
+
+  <rect x="630" y="713" width="515" height="65" rx="7" fill="white" filter="url(#sl)"/>
+  <rect x="630" y="713" width="70" height="26" rx="5" fill="#546e7a"/>
+  <text x="640" y="731" fill="white" font-size="11" font-weight="700">5300</text>
+  <text x="710" y="731" fill="#263238" font-size="13" font-weight="700">Uncollectible Revenue</text>
+  <text x="645" y="753" fill="#333" font-size="10">Amounts originally credited to revenue accounts found impracticable of collection</text>
+  <text x="645" y="769" fill="#333" font-size="10">Charged to this account; credited to 1171 (Allowance for Doubtful Accounts)</text>
+
+  <!-- NOTES -->
+  <rect x="40" y="810" width="1120" height="100" rx="8" fill="white" filter="url(#s)"/>
+  <text x="60" y="835" fill="#1b5e20" font-size="13" font-weight="700">KEY STRUCTURAL NOTES</text>
+  <text x="60" y="855" fill="#333" font-size="11">• Revenue organized by group → summary account → account → subsidiary record category</text>
+  <text x="60" y="873" fill="#333" font-size="11">• Jurisdictional subsidiaries required: intrastate, interstate, and international (per Part 43)</text>
+  <text x="60" y="891" fill="#333" font-size="11">• Incidental nontariffed revenue may be treated as regulated if &lt;1% of total revenue for 3 consecutive years and listed in Cost Allocation Manual</text>
+
+  <text x="600" y="935" text-anchor="middle" fill="#999" font-size="10">47 CFR Part 32 — Uniform System of Accounts for Telecommunications Companies</text>
+</svg>

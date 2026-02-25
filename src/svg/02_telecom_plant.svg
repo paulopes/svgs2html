@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1300" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a2744"/><stop offset="100%" stop-color="#2c4a7c"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8f0fe"/><stop offset="100%" stop-color="#d4e4fc"/></linearGradient>
+    <filter id="s"><feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.12"/></filter>
+    <filter id="sl"><feDropShadow dx="0.5" dy="1" stdDeviation="1.5" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="1200" height="1300" fill="#f5f7fa" rx="12"/>
+  <rect x="40" y="30" width="1120" height="80" rx="10" fill="url(#hg)" filter="url(#s)"/>
+  <text x="600" y="65" text-anchor="middle" fill="white" font-size="22" font-weight="700">Telecommunications Plant Accounts</text>
+  <text x="600" y="90" text-anchor="middle" fill="#a8c4e8" font-size="13">47 CFR Part 32 · Subpart C · Accounts 2001–2690 · Assets with service life &gt; 1 year</text>
+
+  <!-- SUMMARY ACCOUNTS ROW -->
+  <rect x="40" y="135" width="1120" height="180" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="135" width="1120" height="36" rx="10" fill="#1a56db"/>
+  <rect x="40" y="160" width="1120" height="11" fill="#1a56db"/>
+  <text x="60" y="160" fill="white" font-size="15" font-weight="700">SUMMARY &amp; ADJUSTMENT ACCOUNTS</text>
+
+  <rect x="60" y="185" width="170" height="60" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="70" y="204" fill="#1a56db" font-size="11" font-weight="700">2001</text>
+  <text x="70" y="220" fill="#333" font-size="10">Telecom Plant</text>
+  <text x="70" y="234" fill="#333" font-size="10">in Service (Σ 2110–2690)</text>
+
+  <rect x="240" y="185" width="170" height="60" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="250" y="204" fill="#1a56db" font-size="11" font-weight="700">2002</text>
+  <text x="250" y="220" fill="#333" font-size="10">Property Held for</text>
+  <text x="250" y="234" fill="#333" font-size="10">Future Use (≤2 yr plan)</text>
+
+  <rect x="420" y="185" width="170" height="60" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="430" y="204" fill="#1a56db" font-size="11" font-weight="700">2003</text>
+  <text x="430" y="220" fill="#333" font-size="10">Plant Under</text>
+  <text x="430" y="234" fill="#333" font-size="10">Construction</text>
+
+  <rect x="600" y="185" width="170" height="60" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="610" y="204" fill="#1a56db" font-size="11" font-weight="700">2005</text>
+  <text x="610" y="220" fill="#333" font-size="10">Plant Adjustment</text>
+  <text x="610" y="234" fill="#333" font-size="10">(acquisition diff.)</text>
+
+  <rect x="780" y="185" width="170" height="60" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="790" y="204" fill="#1a56db" font-size="11" font-weight="700">2006</text>
+  <text x="790" y="220" fill="#333" font-size="10">Nonoperating</text>
+  <text x="790" y="234" fill="#333" font-size="10">Plant (held for sale)</text>
+
+  <rect x="960" y="185" width="170" height="60" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="970" y="204" fill="#1a56db" font-size="11" font-weight="700">2007</text>
+  <text x="970" y="220" fill="#333" font-size="10">Goodwill</text>
+  <text x="970" y="234" fill="#333" font-size="10">(amort. ≤40 yr to 7300)</text>
+
+  <text x="60" y="278" fill="#555" font-size="10" font-style="italic">Recorded at original cost · Does not include contributed plant · Contributions credited to accounts charged with construction cost</text>
+  <text x="60" y="296" fill="#555" font-size="10" font-style="italic">Construction costs include: labor, engineering, material &amp; supplies, transportation, contract work, special machine service, AFUDC</text>
+
+  <!-- LAND & SUPPORT ASSETS -->
+  <rect x="40" y="330" width="350" height="310" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="330" width="350" height="36" rx="10" fill="#2e7d32"/>
+  <rect x="40" y="354" width="350" height="12" fill="#2e7d32"/>
+  <text x="60" y="356" fill="white" font-size="14" font-weight="700">2110 LAND &amp; SUPPORT</text>
+
+  <rect x="55" y="378" width="320" height="40" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="65" y="395" fill="#2e7d32" font-size="11" font-weight="700">2111 Land</text>
+  <text x="65" y="410" fill="#333" font-size="10">Fee-owned land, easements &gt;1 yr, special assessments</text>
+
+  <rect x="55" y="424" width="320" height="40" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="65" y="441" fill="#2e7d32" font-size="11" font-weight="700">2112 Motor Vehicles</text>
+  <text x="65" y="456" fill="#333" font-size="10">Autos, trucks, trailers used in telecom operations</text>
+
+  <rect x="55" y="470" width="320" height="40" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="65" y="487" fill="#2e7d32" font-size="11" font-weight="700">2113 Aircraft</text>
+  <text x="65" y="502" fill="#333" font-size="10">Airplanes, helicopters for telecom operations</text>
+
+  <rect x="55" y="516" width="320" height="40" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="65" y="533" fill="#2e7d32" font-size="11" font-weight="700">2114 Tools &amp; Other Work Equipment</text>
+  <text x="65" y="548" fill="#333" font-size="10">Special purpose vehicles, garage equip., work tools</text>
+
+  <rect x="55" y="562" width="150" height="40" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="65" y="579" fill="#2e7d32" font-size="11" font-weight="700">2121 Buildings</text>
+  <text x="65" y="594" fill="#333" font-size="10">All buildings owned</text>
+
+  <rect x="215" y="562" width="160" height="40" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="225" y="579" fill="#2e7d32" font-size="11" font-weight="700">2122 Furniture</text>
+  <text x="225" y="594" fill="#333" font-size="10">Incl. artworks</text>
+
+  <rect x="55" y="608" width="150" height="28" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="65" y="627" fill="#2e7d32" font-size="11" font-weight="700">2123 Office Equip.</text>
+
+  <rect x="215" y="608" width="160" height="28" rx="5" fill="white" filter="url(#sl)"/>
+  <text x="225" y="627" fill="#2e7d32" font-size="11" font-weight="700">2124 Gen. Computers</text>
+
+  <!-- CENTRAL OFFICE -->
+  <rect x="405" y="330" width="380" height="310" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="405" y="330" width="380" height="36" rx="10" fill="#c62828"/>
+  <rect x="405" y="354" width="380" height="12" fill="#c62828"/>
+  <text x="425" y="356" fill="white" font-size="14" font-weight="700">CENTRAL OFFICE ASSETS</text>
+
+  <!-- Switching -->
+  <rect x="420" y="378" width="350" height="105" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="430" y="398" fill="#c62828" font-size="13" font-weight="700">2210 Switching</text>
+  <rect x="435" y="406" width="155" height="36" rx="4" fill="#fce8e6"/>
+  <text x="445" y="422" fill="#c62828" font-size="10" font-weight="600">2211 Non-Digital</text>
+  <text x="445" y="436" fill="#555" font-size="9">SPC analog, electromech.</text>
+  <rect x="600" y="406" width="155" height="36" rx="4" fill="#fce8e6"/>
+  <text x="610" y="422" fill="#c62828" font-size="10" font-weight="600">2212 Digital Electronic</text>
+  <text x="610" y="436" fill="#555" font-size="9">Digital switches, remotes</text>
+  <text x="430" y="465" fill="#555" font-size="9" font-style="italic">Includes frames, relays, power equip., patch bays, testing apparatus</text>
+  <text x="430" y="478" fill="#555" font-size="9" font-style="italic">associated with switching functions</text>
+
+  <!-- Operator Systems -->
+  <rect x="420" y="494" width="350" height="50" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="430" y="514" fill="#c62828" font-size="13" font-weight="700">2220 Operator Systems</text>
+  <text x="430" y="534" fill="#555" font-size="10">Consoles, desks, switching equip. for operator-handled calls</text>
+
+  <!-- Transmission -->
+  <rect x="420" y="555" width="350" height="80" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="430" y="575" fill="#c62828" font-size="13" font-weight="700">2230 Transmission</text>
+  <rect x="435" y="583" width="155" height="28" rx="4" fill="#fce8e6"/>
+  <text x="445" y="602" fill="#c62828" font-size="10" font-weight="600">2231 Radio Systems</text>
+  <rect x="600" y="583" width="155" height="28" rx="4" fill="#fce8e6"/>
+  <text x="610" y="602" fill="#c62828" font-size="10" font-weight="600">2232 Circuit Equipment</text>
+  <text x="430" y="628" fill="#555" font-size="9" font-style="italic">Microwave, satellite, multiplexing, carrier, modems, repeaters</text>
+
+  <!-- INFO ORIG/TERM -->
+  <rect x="800" y="330" width="360" height="310" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="800" y="330" width="360" height="36" rx="10" fill="#6a1b9a"/>
+  <rect x="800" y="354" width="360" height="12" fill="#6a1b9a"/>
+  <text x="820" y="356" fill="white" font-size="14" font-weight="700">2310 INFO ORIG./TERMINATION</text>
+
+  <rect x="815" y="378" width="330" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="825" y="398" fill="#6a1b9a" font-size="12" font-weight="700">2311 Station Apparatus</text>
+  <text x="825" y="414" fill="#333" font-size="10">Telephone sets, data sets, PBXs, key systems,</text>
+  <text x="825" y="428" fill="#333" font-size="10">answering machines at customer premises</text>
+
+  <rect x="815" y="440" width="330" height="45" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="825" y="460" fill="#6a1b9a" font-size="12" font-weight="700">2341 Large Private Branch Exchanges</text>
+  <text x="825" y="476" fill="#333" font-size="10">Large PBX switching systems at customer sites</text>
+
+  <rect x="815" y="492" width="330" height="45" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="825" y="512" fill="#6a1b9a" font-size="12" font-weight="700">2351 Public Telephone Terminal Equip.</text>
+  <text x="825" y="528" fill="#333" font-size="10">Coin telephones and associated mounting hardware</text>
+
+  <rect x="815" y="544" width="330" height="45" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="825" y="564" fill="#6a1b9a" font-size="12" font-weight="700">2362 Other Terminal Equipment</text>
+  <text x="825" y="580" fill="#333" font-size="10">All other CPE not classified elsewhere</text>
+
+  <text x="825" y="622" fill="#555" font-size="9" font-style="italic">Equipment at customer premises or network edges for</text>
+  <text x="825" y="635" fill="#555" font-size="9" font-style="italic">originating/terminating communications</text>
+
+  <!-- CABLE & WIRE FACILITIES -->
+  <rect x="40" y="660" width="570" height="360" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="660" width="570" height="36" rx="10" fill="#e65100"/>
+  <rect x="40" y="684" width="570" height="12" fill="#e65100"/>
+  <text x="60" y="686" fill="white" font-size="14" font-weight="700">2410 CABLE &amp; WIRE FACILITIES</text>
+
+  <rect x="55" y="708" width="260" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="65" y="728" fill="#e65100" font-size="12" font-weight="700">2411 Poles</text>
+  <text x="65" y="744" fill="#333" font-size="10">Wood, metal, concrete poles; tower</text>
+  <text x="65" y="756" fill="#333" font-size="10">and antenna structures</text>
+
+  <rect x="325" y="708" width="270" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="335" y="728" fill="#e65100" font-size="12" font-weight="700">2421 Aerial Cable</text>
+  <text x="335" y="744" fill="#333" font-size="10">Cable attached to poles or structures;</text>
+  <text x="335" y="756" fill="#333" font-size="10">nonmetallic &amp; metallic subsidiaries</text>
+
+  <rect x="55" y="770" width="260" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="65" y="790" fill="#e65100" font-size="12" font-weight="700">2422 Underground Cable</text>
+  <text x="65" y="806" fill="#333" font-size="10">Cable in conduit systems;</text>
+  <text x="65" y="818" fill="#333" font-size="10">nonmetallic &amp; metallic subsidiaries</text>
+
+  <rect x="325" y="770" width="270" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="335" y="790" fill="#e65100" font-size="12" font-weight="700">2423 Buried Cable</text>
+  <text x="335" y="806" fill="#333" font-size="10">Direct-buried cable incl. trenching;</text>
+  <text x="335" y="818" fill="#333" font-size="10">nonmetallic &amp; metallic subsidiaries</text>
+
+  <rect x="55" y="832" width="260" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="65" y="852" fill="#e65100" font-size="12" font-weight="700">2424 Submarine &amp; Deep Sea Cable</text>
+  <text x="65" y="868" fill="#333" font-size="10">Underwater cable; nonmetallic &amp;</text>
+  <text x="65" y="880" fill="#333" font-size="10">metallic subsidiaries</text>
+
+  <rect x="325" y="832" width="270" height="55" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="335" y="852" fill="#e65100" font-size="12" font-weight="700">2426 Intrabuilding Network Cable</text>
+  <text x="335" y="868" fill="#333" font-size="10">Cable inside subscriber buildings,</text>
+  <text x="335" y="880" fill="#333" font-size="10">company side of demarcation point</text>
+
+  <rect x="55" y="894" width="260" height="45" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="65" y="914" fill="#e65100" font-size="12" font-weight="700">2431 Aerial Wire</text>
+  <text x="65" y="930" fill="#333" font-size="10">Bare line wire on poles/structures</text>
+
+  <rect x="325" y="894" width="270" height="45" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="335" y="914" fill="#e65100" font-size="12" font-weight="700">2441 Conduit Systems</text>
+  <text x="335" y="930" fill="#333" font-size="10">Reusable conduit, tunnels, bridges</text>
+
+  <text x="60" y="960" fill="#555" font-size="9" font-style="italic">Cable accounts maintain nonmetallic (optical fiber) and metallic (copper) subsidiary records</text>
+  <text x="60" y="975" fill="#555" font-size="9" font-style="italic">Drop/block wires from aerial → included in 2421; from underground → included in 2423</text>
+  <text x="60" y="990" fill="#555" font-size="9" font-style="italic">Cables from MDF to CO equipment → classified to switching/transmission, not here</text>
+
+  <!-- AMORTIZABLE & INTANGIBLES -->
+  <rect x="625" y="660" width="535" height="360" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="625" y="660" width="535" height="36" rx="10" fill="#4527a0"/>
+  <rect x="625" y="684" width="535" height="12" fill="#4527a0"/>
+  <text x="645" y="686" fill="white" font-size="14" font-weight="700">AMORTIZABLE ASSETS &amp; INTANGIBLES</text>
+
+  <rect x="640" y="708" width="505" height="110" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="650" y="728" fill="#4527a0" font-size="13" font-weight="700">2680 Amortizable Tangible Assets</text>
+  <rect x="655" y="738" width="235" height="50" rx="4" fill="#ede7f6"/>
+  <text x="665" y="758" fill="#4527a0" font-size="11" font-weight="600">2681 Finance Leases</text>
+  <text x="665" y="774" fill="#555" font-size="9">Property under finance leases;</text>
+  <text x="665" y="786" fill="#555" font-size="9">PV of min. lease payments</text>
+  <rect x="900" y="738" width="235" height="50" rx="4" fill="#ede7f6"/>
+  <text x="910" y="758" fill="#4527a0" font-size="11" font-weight="600">2682 Leasehold Improvements</text>
+  <text x="910" y="774" fill="#555" font-size="9">Improvements to leased property;</text>
+  <text x="910" y="786" fill="#555" font-size="9">amort. credited directly to acct</text>
+  <text x="650" y="810" fill="#666" font-size="9" font-style="italic">Accum. amortization in Account 3400/3410</text>
+
+  <rect x="640" y="830" width="505" height="170" rx="6" fill="white" filter="url(#sl)"/>
+  <text x="650" y="850" fill="#4527a0" font-size="13" font-weight="700">2690 Intangibles</text>
+  <text x="650" y="872" fill="#333" font-size="11">• Organization &amp; incorporation costs</text>
+  <text x="650" y="890" fill="#333" font-size="11">• Government franchises (original cost)</text>
+  <text x="650" y="908" fill="#333" font-size="11">• Patent rights</text>
+  <text x="650" y="926" fill="#333" font-size="11">• Other intangible property with life &gt; 1 year</text>
+  <text x="650" y="948" fill="#666" font-size="10" font-style="italic">Amortization credited directly to this account (net balance shown)</text>
+  <text x="650" y="963" fill="#666" font-size="10" font-style="italic">Intangibles with life ≤1 yr → charged directly to 6564</text>
+  <line x1="650" y1="973" x2="1130" y2="973" stroke="#ddd" stroke-width="1"/>
+  <text x="650" y="990" fill="#8b4513" font-size="10" font-weight="600">⚠ Does NOT include: debt issuance costs (→ 1410), easements/ROW &gt;1 yr (→ 2111 or outside plant)</text>
+
+  <!-- CONTINUING PROPERTY RECORDS NOTE -->
+  <rect x="40" y="1040" width="1120" height="80" rx="8" fill="#fff3e0" filter="url(#sl)"/>
+  <text x="60" y="1065" fill="#e65100" font-size="13" font-weight="700">📋 CONTINUING PROPERTY RECORDS REQUIRED</text>
+  <text x="60" y="1085" fill="#555" font-size="11">Each primary plant account must maintain subsidiary records by accounting area (smallest territory with investment records).</text>
+  <text x="60" y="1105" fill="#555" font-size="11">Accounting area boundaries cannot cross state lines or Commission-prescribed boundaries. Records must identify each retirement unit.</text>
+
+  <!-- Depreciation Preview -->
+  <rect x="40" y="1140" width="1120" height="120" rx="10" fill="url(#bg)" filter="url(#s)"/>
+  <rect x="40" y="1140" width="1120" height="36" rx="10" fill="#546e7a"/>
+  <rect x="40" y="1164" width="1120" height="12" fill="#546e7a"/>
+  <text x="60" y="1166" fill="white" font-size="14" font-weight="700">RELATED: DEPRECIATION &amp; AMORTIZATION RESERVES (3000s)</text>
+  <text x="75" y="1200" fill="#333" font-size="12">3100 Accumulated Depreciation (for 2112–2441)    ·    3200 Accum. Depr.—Held for Future Use (for 2002)</text>
+  <text x="75" y="1220" fill="#333" font-size="12">3300 Accum. Depr.—Nonoperating (for 2006)    ·    3400 Accum. Amortization—Tangible (for 2680)</text>
+  <text x="75" y="1240" fill="#333" font-size="12">3410 Accum. Amortization—Capitalized Finance Leases (for 2681)</text>
+
+  <text x="600" y="1285" text-anchor="middle" fill="#999" font-size="10">47 CFR Part 32 — Uniform System of Accounts for Telecommunications Companies</text>
+</svg>
