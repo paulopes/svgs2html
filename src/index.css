@@ -10,17 +10,18 @@ html, body, #root {
 
 .app {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
   font-family: system-ui, sans-serif;
 }
 
 .tabs {
   display: flex;
+  flex-direction: column;
   gap: 2px;
-  padding: 4px 4px 0;
+  padding: 4px 0 4px 4px;
   background: #e5e7eb;
-  overflow-x: auto;
+  overflow-y: auto;
   flex-shrink: 0;
 }
 
@@ -30,8 +31,11 @@ html, body, #root {
   background: #d1d5db;
   cursor: pointer;
   font-size: 14px;
-  border-radius: 6px 6px 0 0;
-  white-space: nowrap;
+  border-radius: 6px 0 0 6px;
+  max-width: 100px;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
 }
 
 .tab:hover {
@@ -40,7 +44,7 @@ html, body, #root {
 
 .tab.active {
   background: #fff;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .detail {
