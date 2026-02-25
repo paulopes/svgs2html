@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 const svgModules = import.meta.glob<string>('./svg/*.svg', {
   eager: true,
@@ -11,8 +11,35 @@ const svgEntries = Object.entries(svgModules).map(([path, content]) => ({
   content,
 }));
 
+function indexFromHash(): number {
+  const hash = decodeURIComponent(window.location.hash.slice(1));
+  if (!hash) return 0;
+  const idx = svgEntries.findIndex((e) => e.name === hash);
+  return idx >= 0 ? idx : 0;
+}
+
 export function App() {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState(indexFromHash);
+
+  const selectTab = useCallback((i: number) => {
+    setSelected(i);
+    if (i === 0) {
+      history.pushState(null, '', window.location.pathname + window.location.search);
+    } else {
+      window.location.hash = encodeURIComponent(svgEntries[i].name);
+    }
+  }, []);
+
+  useEffect(() => {
+    const sync = () => setSelected(indexFromHash());
+    window.addEventListener('hashchange', sync);
+    window.addEventListener('popstate', sync);
+    return () => {
+      window.removeEventListener('hashchange', sync);
+      window.removeEventListener('popstate', sync);
+    };
+  }, []);
+
   const current = svgEntries[selected];
 
   if (svgEntries.length === 0) {
@@ -26,7 +53,7 @@ export function App() {
           <button
             key={entry.name}
             className={i === selected ? 'tab active' : 'tab'}
-            onClick={() => setSelected(i)}
+            onClick={() => selectTab(i)}
           >
             {entry.name}
           </button>
