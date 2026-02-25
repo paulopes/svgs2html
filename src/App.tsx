@@ -6,10 +6,16 @@ const svgModules = import.meta.glob<string>('./svg/*.svg', {
   import: 'default',
 });
 
-const svgEntries = Object.entries(svgModules).map(([path, content]) => ({
-  name: path.split('/').pop()!.replace(/\.svg$/, ''),
-  content,
-}));
+function humanize(name: string): string {
+  const words = name.split('_');
+  if (/^\d+$/.test(words[0])) words.shift();
+  return words.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+const svgEntries = Object.entries(svgModules).map(([path, content]) => {
+  const name = path.split('/').pop()!.replace(/\.svg$/, '');
+  return { name, label: humanize(name), content };
+});
 
 function indexFromHash(): number {
   const hash = decodeURIComponent(window.location.hash.slice(1));
@@ -55,7 +61,7 @@ export function App() {
             className={i === selected ? 'tab active' : 'tab'}
             onClick={() => selectTab(i)}
           >
-            {entry.name}
+            {entry.label}
           </button>
         ))}
       </nav>
