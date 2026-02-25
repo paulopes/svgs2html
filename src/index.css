@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Lato-Regular.woff2') format('woff2');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,12 +37,15 @@ html, body, #root {
   border: none;
   background: #d1d5db;
   cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   font-size: 14px;
   border-radius: 6px 0 0 6px;
   max-width: 150px;
   word-wrap: break-word;
   white-space: normal;
   text-align: left;
+  color: #1e2a5a;
 }
 
 .tab:hover {
@@ -44,7 +54,7 @@ html, body, #root {
 
 .tab.active {
   background: #fff;
-  font-weight: normal;
+  color: #000;
 }
 
 .detail {
