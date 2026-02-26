@@ -41,7 +41,7 @@ A Vite build with `vite-plugin-singlefile` bundles a React app that displays the
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
 Copyright 2025 Paulo Lopes
 
