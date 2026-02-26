@@ -1,10 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-
-const svgModules = import.meta.glob<string>('./svg/*.svg', {
-  eager: true,
-  query: '?raw',
-  import: 'default',
-});
+import rawEntries from 'virtual:svg-files';
 
 function humanize(name: string): string {
   const words = name.split('_');
@@ -12,10 +7,11 @@ function humanize(name: string): string {
   return words.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
-const svgEntries = Object.entries(svgModules).map(([path, content]) => {
-  const name = path.split('/').pop()!.replace(/\.svg$/, '');
-  return { name, label: humanize(name), content };
-});
+const svgEntries = rawEntries.map(({ name, content }) => ({
+  name,
+  label: humanize(name),
+  content,
+}));
 
 function indexFromHash(): number {
   const hash = decodeURIComponent(window.location.hash.slice(1));
@@ -49,7 +45,7 @@ export function App() {
   const current = svgEntries[selected];
 
   if (svgEntries.length === 0) {
-    return <p style={{ padding: 24 }}>No SVG files found. Add .svg files to src/svg/</p>;
+    return <p style={{ padding: 24 }}>No SVG files found. Add .svg files to the working directory and rebuild.</p>;
   }
 
   return (
